@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "Hanken-Grotesk";
+    src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+body {
+    /* background: black; */
+    font-family: "Hanken-Grotesk";
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 732px;
+    height: 511px;
+    border-radius: 35px;
+    box-shadow: 30px 30px 80px 0px hsl(221, 100%, 96%);
+}
+
+.result {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 100%;
+    width: 50%;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.resultBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    gap: 35px;
+}
+
+.scoreCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.score {
+    font-size: 75px;
+    font-weight: 800;
+}
+
+.outOf {
+    opacity: 50%;
+}
+
+.yourResult {
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 60%;
+    padding-top: -25px;
+}
+
+.great {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.percentage {
+    font-size: 18px;
+    width: 70%;
+    opacity: 60%;
+    margin-top: -25px;
+}
+
+.summaryBox {
+    background: white;
+    height: 100%;
+    width: 50%;
+    border-radius: 0 25px 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
+
+.innerSummaryBox {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
+
+.summary {
+    font-weight: 800;
+    font-size: 25px;
+    margin-right: auto;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 15px;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.catDiv {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+
+.sumText {
+    margin-left: -30px;
+    margin-right: auto;
+}
+
+.sumImg {
+    margin-top: 5px;
+    margin-right: auto;
+    padding-left: 15px;
+}
+
+.catScoreDiv {
+    margin-left: auto;
+    padding-right: 15px;
+    font-weight: 800;
+}
+
+.cat100 {
+    opacity: 40%;
+}
+
+.cat1 {
+    background: hsl(0deg 100% 67% / 5%);
+}
+
+.cat1text {
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+}
+
+.cat2 {
+    background: hsl(39deg 100% 56% / 5%);
+}
+
+.cat2text {
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;
+}
+
+.cat3 {
+    background: hsl(166deg 100% 37% / 5%);
+}
+
+.cat3text {
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+}
+
+.cat4 {
+    background: hsl(234deg 85% 45% / 5%);
+}
+
+.cat4text {
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
+}
+
+.continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    background: hsl(224, 30%, 27%);
+    width: 100%;
+    color: white;
+    height: 54px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 19px;
+}
